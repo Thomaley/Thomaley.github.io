@@ -2,58 +2,97 @@
 @import url(http://fonts.googleapis.com/css?family=Balthazar);
 @import url(http://fonts.googleapis.com/css?family=Nova+Square);
 
+
 body {
   background-image: url('../imgs/bg.jpg');
-  background-size: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  width: 1080px;
+  margin: auto;
+  padding-bottom: 50px;
 }
 
 h1 {
-  color: tomato;
-  background: teal;
-  padding: 20px;
+  color: #3f5765;
+  padding: 10px;
   font-family: 'Special Elite', cursive;
   font-size: 60px;
-  text-align: center;
-  opacity: 0.6;
+  opacity: 0.8;
+}
+
+h2 {
+  color: #e74c3c;
+  font-family: 'Special Elite', cursive;
+  padding: 5px;
+  font-size: 32px;
 }
 
 h4 {
-  border: 3px solid red;
-  padding: 3px;
-  background: yellow;
+  color: #e74c3c;
   border-radius: 10px;
   font-family: 'Balthazar', serif;
   letter-spacing: 3px;
   font-size: 32px;
   width: 400px;
-  text-align: center;
-  margin: auto;
-  padding: 25px;
-  opacity: 0.6;
+  padding: 10px;
+  background: #efefef;
+  opacity: 0.7;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 ul {
-  background: pink;
-  width: 485px;
-  margin: auto;
-
-  opacity: 0.6;
+  width: 437px;
+  padding: 0 0 50px 0;
 }
 
-li:nth-child(2n) {
-  color: brown;
+li {
+  list-style-type: none;
+  color: #e74c3c;
   font-family: 'Nova Square', cursive;
   padding: 5px;
   font-size: 24px;
-  background: lightgrey;
+  background: #efefef;
   width: 425px;
+  border: 1px dotted #3e3e3e;
+  text-align: center;
+  opacity: 0.7;
+
 }
 
-li:nth-child(2n + 1) {
-  color: green;
-  font-family: 'Nova Square', cursive;
-  padding: 5px;
-  font-size: 24px;
-  background: lightblue;
-  width: 425px;
+li:first-child {
+  border-radius: 10px 10px 0 0;
+}
+
+li:last-child {
+  border-radius: 0 0 10px 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.sampleimage {
+  border: 5px solid rgba(239, 239, 239, .8);
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+
+}
+
+.github {
+    color: #e74c3c;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.github:hover {
+  text-decoration: underline;
 }
