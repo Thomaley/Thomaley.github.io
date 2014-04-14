@@ -91,6 +91,7 @@ li:last-child {
     color: #e74c3c;
     text-decoration: none;
     font-size: 20px;
+    padding-bottom: 30px;
 }
 
 .github:hover {
