@@ -17,10 +17,11 @@ body {
 
 h1 {
   color: #3f5765;
-  padding: 10px;
+  padding: 40px;
   font-family: 'Special Elite', cursive;
   font-size: 60px;
   opacity: 0.8;
+  margin: 0;
 }
 
 h2 {
@@ -71,6 +72,15 @@ li:last-child {
   border-radius: 0 0 10px 10px;
 }
 
+#portfolio {
+  margin: 0 auto;
+  width: 100%;
+  background: rgba(239, 239, 239, 0.5);
+  border-radius: 10px;
+}
+
+
+
 .center {
   display: block;
   margin-left: auto;
@@ -79,7 +89,7 @@ li:last-child {
 }
 
 .sampleimage {
-  border: 5px solid rgba(239, 239, 239, .8);
+  border: 5px solid rgba(239, 239, 239, 0.5);
   display: block;
   margin-top: 10px;
   margin-bottom: 10px;
